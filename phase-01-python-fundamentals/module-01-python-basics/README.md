@@ -163,91 +163,52 @@ This distinction becomes very important when we learn input and type conversion.
 | `<`      | Less than             | `10 < 5`   | `False` |
 | `>=`     | Greater than or equal | `10 >= 10` | `True`  |
 | `<=`     | Less than or equal    | `5 <= 10`  | `True`  |
-1. Equal ==
-
+# 1. Equal ==
 ⚠️ Don't confuse = and ==.
-
 x = 10
-
 = means assign.
-
 x == 10
-
 == means compare.
-
 Example:
-
 gene_count = 10
-
 print(gene_count == 10)
-
 Output:
-
 True
-2. Not Equal !=
+# 2. Not Equal !=
 gene_count = 10
-
 print(gene_count != 5)
-
 Output:
-
 True
-
 Because 10 is not equal to 5.
-
 3. Greater Than >
 sequence_length = 1500
-
 print(sequence_length > 1000)
-
 Output:
-
 True
-4. Less Than <
+# 4. Less Than <
 sequence_length = 500
-
 print(sequence_length < 1000)
-
 Output:
-
 True
-5. Greater Than or Equal >=
+# 5. Greater Than or Equal >=
 gc_content = 50.0
-
 print(gc_content >= 50)
-
 Output:
-
 True
-
 Both 50 >= 50 and 60 >= 50 are True.
-
-6. Less Than or Equal <=
+# 6. Less Than or Equal <=
 gc_content = 45.5
-
 print(gc_content <= 50)
-
 Output:
-
 True
 🧬 Bioinformatics Example
-
 Suppose we want to check whether a DNA sequence is long enough for analysis:
-
 sequence_length = 1200
-
 print(sequence_length >= 1000)
-
 Output:
-
 True
-
 Or check GC content:
-
 gc_content = 42.5
-
 print(gc_content > 50)
-
 Output:
-
 False

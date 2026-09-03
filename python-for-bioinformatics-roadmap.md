@@ -28,9 +28,7 @@ Topics:
 ---
 
 ## Module 2 — Python Control Flow
-
 Topics:
-
 - `if`
 - `elif`
 - `else`
